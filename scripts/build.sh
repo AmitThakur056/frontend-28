@@ -7,7 +7,7 @@ SCRIPT_DIR=$(dirname "$0")
 if [[ -z "$GROUP" ]] ; then
   echo "Cannot find GROUP env var"
   exit 1
-fi
+fi  
 
 if [[ -z "$COMMIT" ]] ; then
   echo "Cannot find COMMIT env var"
