@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -ev
-
+   
 SCRIPT_DIR=$(dirname "$0")
 
 if [[ -z "$GROUP" ]] ; then
