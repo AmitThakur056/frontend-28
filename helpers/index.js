@@ -10,7 +10,7 @@
    * var app = express();
    * app.use(helpers.errorHandler);
    * */
-
+    
   helpers.errorHandler = function(err, req, res, next) {
     var ret = {
       message: err.message,
