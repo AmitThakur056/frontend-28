@@ -12,6 +12,9 @@ if [[ -z "$COMMIT" ]] ; then
     exit 1
 fi
 
+
+
+
 push() {
     DOCKER_PUSH=1;
     while [ $DOCKER_PUSH -gt 0 ] ; do
